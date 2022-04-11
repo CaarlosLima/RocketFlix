@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(43deg, #102d71 0%, #000000 52%, #8223c1 100%) no-repeat;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300, 400, 500;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em auto;
+  width: 100%;
+}
+
+#logo {
+  height: 68px;
+  margin-top: 2em;
+}
+
+h1 {
+  color: #fffcf9;
+  font-size: 42px;
+  padding: 10px
+}
+
+button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 26px;
+  width: 180px;
+  height: 46px;
+  background: #e9e6e3;
+  border: 2px solid #1a1a1a;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.findIcon {
+  width: 33px;
+  height: 24px;
+}
+
+.descriptionFind {
+  margin-top: 25px;
+  max-width: 350px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  color:#b3b3b3;
+}
+
+#movieContent {
+  display: flex;
+  max-width: 1000px;
+  margin: 42px 15px auto;
+  margin-top: 42px;
+  color: white;
+  min-height: 250px;
+}
+
+#movieContent img {
+  width: 171px;
+  height: 243px;
+  margin-top: 15px;
+}
+
+#movieDescription {
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.movieTittle{
+  text-align: center;
+  margin:5px 0px 10px;
+}
